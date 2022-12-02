@@ -52,5 +52,24 @@ Write ahead logs are used in database and file system. It ensure the durability 
 
 
 - What are some of the limitations of Spark Structured Streaming API?
+
+Users must write programming code and understand complex Apache Spark concepts to set up an optimal performing ETL pipeline.
+The number of offered connectors are minimal.  Consequently, users must develop and maintain their connector and sink source code.
+
 - What types of joins are supported in Spark Structured Streaming API?
+
+- Join Operations
+- Stream-static Joins
+- Stream-stream Joins
+- Inner Joins with optional Watermarking
+- Outer Joins with Watermarking
+- Semi Joins with Watermarking
+- Support matrix for joins in streaming queries
+
+reference - https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#join-operations
+
 - Can we integrate machine learning with Spark Structured Streaming?
+
+yes - example reference - https://towardsdatascience.com/learn-how-to-use-spark-ml-and-spark-streaming-3a731485d052
+
+
