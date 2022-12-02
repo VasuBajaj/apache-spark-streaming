@@ -2,7 +2,13 @@
 
 ## Installations
 
-### 1. Install Netcat
+- Java 
+
+- Wintuils
+https://github.com/cdarlint/win
+
+
+- Install Netcat
 https://nmap.org/download.html
 
 you can verify the installation using command.
