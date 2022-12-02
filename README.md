@@ -1,5 +1,17 @@
 # Instructions
 
+## Basic Concept - Visual
+![](https://spark.apache.org/docs/latest/img/structured-streaming-stream-as-a-table.png)
+
+A query on the input will generate the “Result Table”. Every trigger interval (say, every 1 second), new rows get appended to the Input Table, which eventually updates the Result Table. Whenever the result table gets updated, we would want to write the changed result rows to an external sink.
+
+![](https://spark.apache.org/docs/latest/img/structured-streaming-model.png)
+
+### Example
+
+![](https://spark.apache.org/docs/latest/img/structured-streaming-example-model.png)
+
+
 Official Guide - https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html 
 
 
