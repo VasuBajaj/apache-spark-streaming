@@ -1,5 +1,17 @@
 # Instructions
 
+## Installations
+
+### 1. Install Netcat
+https://nmap.org/download.html
+
+you can verify the installation using command.
+```
+ncat --version
+```
+![image](https://user-images.githubusercontent.com/41167055/205353772-1f1e71c7-3553-4843-86aa-bf4444cd9e49.png)
+
+
 ## Basic Concept - Visual
 ![](https://spark.apache.org/docs/latest/img/structured-streaming-stream-as-a-table.png)
 
